@@ -1,0 +1,10 @@
+cd Projects\BIT
+.\env\Scripts\activate
+cd FlaskApp
+set FLASK_APP=app
+set FLASK_ENV=development
+flask run
+
+ó 
+cd FlaskApp
+python app.py
